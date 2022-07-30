@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobCreateApp", "BlobApp\BlobCreateApp.csproj", "{97B5C9F8-A243-40AF-B943-A089F9B7B3FF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobUploadApp", "BlobUploadApp\BlobUploadApp.csproj", "{7A01F838-3784-4938-B318-4A32565B216B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobListApp", "BlobListApp\BlobListApp.csproj", "{73468816-02EC-4ECE-AACE-F56C34C9FA70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobDownloadApp", "BlobDownloadApp\BlobDownloadApp.csproj", "{3ED3AB98-D366-4E04-9423-04A950102CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobDownloadApp", "BlobDownloadApp\BlobDownloadApp.csproj", "{3ED3AB98-D366-4E04-9423-04A950102CB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobLeaseApp", "BlobLeaseApp\BlobLeaseApp.csproj", "{BD1CE647-F795-45B2-8C63-47CD8AA74C64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobMetadataApp", "BlobMetadataApp\BlobMetadataApp.csproj", "{BFB3A529-49A7-4346-9570-A4BCE9388F0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobCreateApp", "BlobCreateApp\BlobCreateApp.csproj", "{FE55E1EE-70EC-43F8-A11C-2B35C67796BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97B5C9F8-A243-40AF-B943-A089F9B7B3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97B5C9F8-A243-40AF-B943-A089F9B7B3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97B5C9F8-A243-40AF-B943-A089F9B7B3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97B5C9F8-A243-40AF-B943-A089F9B7B3FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A01F838-3784-4938-B318-4A32565B216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A01F838-3784-4938-B318-4A32565B216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A01F838-3784-4938-B318-4A32565B216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +33,18 @@ Global
 		{3ED3AB98-D366-4E04-9423-04A950102CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED3AB98-D366-4E04-9423-04A950102CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED3AB98-D366-4E04-9423-04A950102CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1CE647-F795-45B2-8C63-47CD8AA74C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1CE647-F795-45B2-8C63-47CD8AA74C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1CE647-F795-45B2-8C63-47CD8AA74C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1CE647-F795-45B2-8C63-47CD8AA74C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB3A529-49A7-4346-9570-A4BCE9388F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB3A529-49A7-4346-9570-A4BCE9388F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB3A529-49A7-4346-9570-A4BCE9388F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB3A529-49A7-4346-9570-A4BCE9388F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE55E1EE-70EC-43F8-A11C-2B35C67796BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE55E1EE-70EC-43F8-A11C-2B35C67796BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE55E1EE-70EC-43F8-A11C-2B35C67796BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE55E1EE-70EC-43F8-A11C-2B35C67796BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
